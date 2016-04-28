@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		 
+		<!-- Add the stylesheet to the head -->
+<link rel="stylesheet" type="text/css" href="/src/clippy.css" media="all">
+	<style>
+
+	</style>
+</head>
+	<body>
+		<div class="container">
+				<div class="headder">
+
+				</div>
+
+
+				
+				<div class="footer" style = "background-color:blue;">
+				    )
+			<!-- Add these scripts to the bottom of the page -->
+<!-- jQuery 1.7+ -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<!-- Clippy.js -->
+<script src="/build/clippy.js"></script>
+<!-- Init script -->
+<script type="text/javascript">
+ clippy.load('Clippy', function(agent){
+ // do anything with the loaded agent
+ agent.show();
+ agent.moveTo(100,100);
+ agent.speak('Hi! :)');
+ agent.gestureAt(200,200);
+ agent.speak('Clippy with you again.');
+ agent.play('Searching');
+ });
+</script>
+				</div>
+		</div>
+	
+		</body>
+</html>
